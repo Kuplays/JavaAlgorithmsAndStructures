@@ -20,8 +20,7 @@ public class Stack<T> implements StackInterface<T> {
 
     @Override
     public void push(T element) {
-        ListNode<T> nodeToInsert = new ListNode<T>(element, this.nodeTop);
-        this.nodeTop = nodeToInsert;
+        this.nodeTop = new ListNode<T>(element, this.nodeTop);
         this.size += 1; //non atomic
     }
 
