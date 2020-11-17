@@ -6,3 +6,4 @@ Family of various JAVA algorithms and structures that doesn`t fit into any proje
 
 * Currently set
   * Family of progressions to test against Travis CI
+  * Stack built upon Linked-List with constant time
